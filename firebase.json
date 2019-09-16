@@ -2,7 +2,7 @@
   "hosting": [
     {
       "target": "angular-pwa-test",
-      "public": "dist/angular-pwa-test",
+      "public": "dist",
       "ignore": [
         "firebase.json",
         "**/.*",
