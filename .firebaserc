@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "pwa-example-96211": {
+      "hosting": {
+        "angular-pwa-test": [
+          "pwa-example-96211"
+        ]
+      }
+    }
+  }
+}
