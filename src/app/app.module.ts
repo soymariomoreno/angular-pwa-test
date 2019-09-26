@@ -13,9 +13,21 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFireMessagingModule } from '@angular/fire/messaging';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+import { HomeComponent } from './home/home.component';
+import { CatsComponent } from './cats/cats.component';
+import { OnlineStatusComponent } from './online-status/online-status.component';
+import { CameraComponent } from './camera/camera.component';
+import { AppModuleMaterial } from './app.material.module';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    CatsComponent,
+    OnlineStatusComponent,
+    CameraComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +37,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AngularFirestoreModule, // firestore
     AngularFireAuthModule, // auth
     AngularFireStorageModule, // storage
-    AngularFireMessagingModule, BrowserAnimationsModule //messaging
+    AngularFireMessagingModule, //messaging
+    BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule,
+    AppModuleMaterial
   ],
   providers: [],
   bootstrap: [AppComponent]

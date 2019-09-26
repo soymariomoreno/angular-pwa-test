@@ -1,0 +1,20 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #4dafe7;
+  background: -webkit-linear-gradient(to right, #4dafe7, #52e0b1, #c0ee56); 
+  background: linear-gradient(
+    to right,
+    #4dafe7,
+    #52e0b1,
+    #c0ee56
+  );
+}
+
+article {
+  text-align: center;
+  color: white;
+  padding: 40px;
+}
