@@ -20,6 +20,7 @@ import { CatsComponent } from './cats/cats.component';
 import { OnlineStatusComponent } from './online-status/online-status.component';
 import { CameraComponent } from './camera/camera.component';
 import { AppModuleMaterial } from './app.material.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { AppModuleMaterial } from './app.material.module';
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
-    AppModuleMaterial
+    AppModuleMaterial,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

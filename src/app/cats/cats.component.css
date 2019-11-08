@@ -10,9 +10,18 @@
 }
 
 .example-card {
-  max-width: 400px;
+  max-width: 200px;
+  margin: 10px;
 }
 
 .example-header-image {
   background-size: cover;
+}
+
+.mat-fab-button{
+
+  right: 20px;
+  bottom: 10px;
+  left: auto;
+  position: absolute;
 }
